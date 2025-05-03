@@ -1,0 +1,23 @@
+{
+  "input": {
+    "image": {
+      "type": "path",
+      "description": "Upload a photo of your home"
+    },
+    "prompt": {
+      "type": "string",
+      "description": "Describe the changes you'd like to see on the home exterior"
+    },
+    "num_inference_steps": {
+      "type": "number",
+      "default": 25
+    },
+    "guidance_scale": {
+      "type": "number",
+      "default": 7.5
+    }
+  },
+  "output": {
+    "type": "path"
+  }
+}
